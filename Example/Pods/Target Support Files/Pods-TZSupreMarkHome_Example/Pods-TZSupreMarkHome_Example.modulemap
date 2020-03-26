@@ -1,0 +1,6 @@
+framework module Pods_TZSupreMarkHome_Example {
+  umbrella header "Pods-TZSupreMarkHome_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

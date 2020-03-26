@@ -1,0 +1,27 @@
+{
+  "name": "TZSupreMarkHome",
+  "version": "0.1.0",
+  "summary": "A short description of TZSupreMarkHome.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/772379155@qq.com/TZSupreMarkHome",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "772379155@qq.com": "772379155@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/zjhtz/TZSupreMarkHome.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TZSupreMarkHome/Classes/**/*",
+  "dependencies": {
+    "TZSupreMarkBase": [
+
+    ]
+  }
+}

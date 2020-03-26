@@ -1,0 +1,69 @@
+PODS:
+  - CTMediator (28)
+  - CYLTabBarController (1.28.5):
+    - CYLTabBarController/Core (= 1.28.5)
+  - CYLTabBarController/Core (1.28.5)
+  - Expecta (1.0.6)
+  - "Expecta+Snapshots (3.1.1)":
+    - Expecta (~> 1.0)
+    - FBSnapshotTestCase/Core (~> 2.0)
+    - Specta (~> 1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - ReactiveObjC (3.0.0)
+  - Specta (1.0.7)
+  - TZSupreMarkBase (0.1.0):
+    - CTMediator
+    - CYLTabBarController (~> 1.28.5)
+    - ReactiveObjC (~> 3.0.0)
+    - YYKit
+  - TZSupreMarkHome (0.1.0):
+    - TZSupreMarkBase
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+
+DEPENDENCIES:
+  - Expecta
+  - "Expecta+Snapshots"
+  - FBSnapshotTestCase
+  - Specta
+  - TZSupreMarkBase
+  - TZSupreMarkHome (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - CTMediator
+    - CYLTabBarController
+    - ReactiveObjC
+    - YYKit
+  https://github.com/zhenTangIos/privatePods.git:
+    - TZSupreMarkBase
+  trunk:
+    - Expecta
+    - "Expecta+Snapshots"
+    - FBSnapshotTestCase
+    - Specta
+
+EXTERNAL SOURCES:
+  TZSupreMarkHome:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CTMediator: 6a05e9f1098b2d2fbc9d19cc7f28e94c3a08b5d2
+  CYLTabBarController: edd9fecba9afa3f2e9e44ed50ca6dde69941f25f
+  Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
+  "Expecta+Snapshots": dcff217eef506dabd6dfdc7864ea2da321fafbb8
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  ReactiveObjC: ce79989e8684b9086b5f8d0c74bc7b81a8729c9e
+  Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
+  TZSupreMarkBase: 61ce8f8d8f806ff23ae35e30028e32dd0e151881
+  TZSupreMarkHome: 8070382aa47ce80390458100b75a28d682d089a0
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+
+PODFILE CHECKSUM: ac9c9fe88ef1c6e9d11311aed827c0c460ee270e
+
+COCOAPODS: 1.8.3
